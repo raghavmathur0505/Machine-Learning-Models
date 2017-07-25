@@ -1,8 +1,11 @@
-ABOUT THE PROJECT:
+# ABOUT THE PROJECT:
 
 1) Dataset: 
+	i.	Name of Dataset: Ionosphere Dataset (UCI Machine Learning Repository (http://archive.ics.uci.edu/ml/datasets.html))
+	ii.	Number of Instances: 351
+	iii.	Number of Attributes: 34 plus the class attribute
 
-2) Preproessing
+2) Performed Preproessing
 
 3) Classifiers implemented:
 
@@ -14,7 +17,7 @@ ABOUT THE PROJECT:
 	
 4) Trained the classifiers using different set of parameters
 
-5) Compared performance of different classifiers using Accuracy and Other performance metrics
+5) Compared performance of different classifiers using Accuracy and Other performance metrics (Cross validation, ROC, Precison , Recall)
 
 ---------------------------------------------------------------------------------------------
 
@@ -30,3 +33,23 @@ c.	NEURAL NET.R
 d.	Perceptron.R
 e.	NAÏVE BAYES.R
 f.	SVM.R
+
+------------------------------------------------------------------------------------------------
+
+PACKAGES USED-
+
+1.	RPART
+install.packages("rpart", dependencies = T)
+2.	CARET
+install.packages("caret")
+3.	RANN
+install.packages("RANN")
+4.	NEURALNET
+install.packages("neuralnet", dependencies = T)
+5.	E1071
+install.packages("e1071", dependencies = T)
+6.	RPART.PLOT
+
+install.packages("rpart.plot",  dependencies = T)
+
+------------------------------------------------------------------------------------------------------
