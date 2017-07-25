@@ -1,4 +1,3 @@
-Submission for: Shweta Nair and Raghav Mathur
 Assignment 5- Image segmentation Part 3
 
 
